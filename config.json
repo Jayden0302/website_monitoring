@@ -1,4 +1,5 @@
 {
+    "default_time_interval": 300,
     "websites": [
       {
         "url": "http://www.foobar.com/login",

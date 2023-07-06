@@ -1,3 +1,4 @@
+import sys
 import requests
 import json
 import time
@@ -42,9 +43,20 @@ def monitor_websites(config, interval):
             print(website)
         time.sleep(interval)
 
-# Load the configuration from JSON file
-with open("config.json") as f:
-    config = json.load(f)
+if __name__ == "__main__":
+    # Load the configuration from JSON file
+    with open("config.json") as f:
+        config = json.load(f)
 
-# Monitor the websites every 5 mins
-monitor_websites(config, 300)
+    # Check if interval argument is provided
+    if len(sys.argv) > 1:
+        try:
+            interval = int(sys.argv[1])
+        except ValueError:
+            print("Invalid interval value. Please provide a valid integer value.")
+            sys.exit(1)
+    else:
+        interval = config["default_time_interval"]  # Default interval from config.json
+
+    # Monitor the websites with the specified interval
+    monitor_websites(config, interval)
