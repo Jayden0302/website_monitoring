@@ -3,23 +3,38 @@
     "websites": [
       {
         "url": "http://www.foobar.com/login",
-        "required_content": "Please login"
+        "required_contents": [
+            "Please login",
+            "Logout"
+        ]
       },
       {
         "url": "https://www.google.com",
-        "required_content": "Search"
+        "required_contents": [
+            "Search",
+            "Google"
+        ]
       },
       {
         "url": "https://www.youtube.com",
-        "required_content": "Home"
+        "required_contents": [
+            "Home",
+            "Youtube"
+        ]
       },
       {
         "url": "https://www.example.com",
-        "required_content": "Home"
+        "required_contents": [
+            "Hahaha",
+            "Logout"
+        ]
       },
       {
         "url": "http://www.google.com/404",
-        "required_content": "Home"
+        "required_contents": [
+            "Please login",
+            "Logout"
+        ]
       }
     ]
   }
