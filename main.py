@@ -7,7 +7,7 @@ import logging
 #Configure Logging 
 logging.basicConfig(
     level=logging.INFO,
-    format='%(asctime)s - %(message)s',
+    format='%(asctime)s - %(levelname)s \t- %(message)s',
     datefmt='%Y-%m-%d %H:%M:%S',
     handlers=[
         logging.FileHandler('output.log'),
