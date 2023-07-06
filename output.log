@@ -1,0 +1,38 @@
+2023-07-06 08:27:29 - https://www.google.com is up and contains the required content.
+2023-07-06 08:28:55 - https://www.google.com is up and contains the required content.
+2023-07-06 08:28:55 - https://www.youtube.com is up and contains the required content.
+2023-07-06 08:32:54 - Response Time: 0.079948	https://www.google.com is up and contains the required content.
+2023-07-06 08:32:54 - Response Time: 0.082293	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:33:02 - Response Time: 0.139213s	https://www.google.com is up and contains the required content.
+2023-07-06 08:33:03 - Response Time: 0.120795s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:33:56 - Response Time: 0.09909s	https://www.google.com is up and contains the required content.
+2023-07-06 08:33:57 - Response Time: 0.090907s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:34:16 - Response Time: 0.093484s	https://www.google.com is up and contains the required content.
+2023-07-06 08:34:17 - Response Time: 0.079024s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:34:17 - Response Time: 0.783687s	https://www.example.com is up but does not contain the required content.
+2023-07-06 08:34:49 - Response Time: 0.087776s	https://www.google.com is up and contains the required content.
+2023-07-06 08:34:49 - Response Time: 0.082473s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:34:50 - Response Time: 0.717929s	https://www.example.com is up but does not contain the required content.
+2023-07-06 08:34:51 - Response Time: 1.090095s	https://www.hahaha.com is up and contains the required content.
+2023-07-06 08:35:21 - Response Time: 0.084545s	https://www.google.com is up and contains the required content.
+2023-07-06 08:35:21 - Response Time: 0.072212s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:35:22 - Response Time: 0.784785s	https://www.example.com is up but does not contain the required content.
+2023-07-06 08:35:22 - Error connecting to https://www.asdasdasdasdasd.com: HTTPSConnectionPool(host='www.asdasdasdasdasd.com', port=443): Max retries exceeded with url: / (Caused by NameResolutionError("<urllib3.connection.HTTPSConnection object at 0x0000020E76925250>: Failed to resolve 'www.asdasdasdasdasd.com' ([Errno 11001] getaddrinfo failed)"))
+2023-07-06 08:37:24 - Response Time: 0.455912s	https://www.google.com is up and contains the required content.
+2023-07-06 08:37:24 - Response Time: 0.27726s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:37:26 - Response Time: 1.582856s	https://www.example.com is up but does not contain the required content.
+2023-07-06 08:37:26 - Response Time: 0.249107s	http://www.google.com/404 is down. Status code: 404
+2023-07-06 08:42:26 - Response Time: 0.105321s	https://www.google.com is up and contains the required content.
+2023-07-06 08:42:26 - Response Time: 0.084276s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:42:27 - Response Time: 0.754509s	https://www.example.com is up but does not contain the required content.
+2023-07-06 08:42:27 - Response Time: 0.113729s	http://www.google.com/404 is down. Status code: 404
+2023-07-06 08:43:03 - Error connecting to https://www.foobar.com/login: HTTPSConnectionPool(host='www.foobar.com', port=443): Max retries exceeded with url: /login (Caused by SSLError(SSLCertVerificationError(1, '[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: certificate has expired (_ssl.c:1002)')))
+2023-07-06 08:43:04 - Response Time: 0.07825s	https://www.google.com is up and contains the required content.
+2023-07-06 08:43:05 - Response Time: 0.101858s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:43:05 - Response Time: 0.753247s	https://www.example.com is up but does not contain the required content.
+2023-07-06 08:43:05 - Response Time: 0.112868s	http://www.google.com/404 is down. Status code: 404
+2023-07-06 08:43:16 - Response Time: 0.490372s	http://www.foobar.com/login is down. Status code: 403
+2023-07-06 08:43:16 - Response Time: 0.116618s	https://www.google.com is up and contains the required content.
+2023-07-06 08:43:17 - Response Time: 0.089355s	https://www.youtube.com is up and contains the required content.
+2023-07-06 08:43:17 - Response Time: 0.809533s	https://www.example.com is up but does not contain the required content.
+2023-07-06 08:43:18 - Response Time: 0.113791s	http://www.google.com/404 is down. Status code: 404

@@ -1,0 +1,24 @@
+{
+    "websites": [
+      {
+        "url": "http://www.foobar.com/login",
+        "required_content": "Please login"
+      },
+      {
+        "url": "https://www.google.com",
+        "required_content": "Search"
+      },
+      {
+        "url": "https://www.youtube.com",
+        "required_content": "Home"
+      },
+      {
+        "url": "https://www.example.com",
+        "required_content": "Home"
+      },
+      {
+        "url": "http://www.google.com/404",
+        "required_content": "Home"
+      }
+    ]
+  }
