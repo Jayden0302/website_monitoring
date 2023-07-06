@@ -28,4 +28,4 @@ It is always better to setup a Python virtual environment for a better dependenc
 ```
   python main.py <time_interval>
 ```
-The tool accept an integer arguement from command-line, else it will get the default_time_interval from the config.json.
+The tool accept an integer arguement from command-line, ommit it to get the default_time_interval from the config.json.
